@@ -57,7 +57,7 @@ namespace TCP_Client
             if (button1.Enabled == false)
             {
                 Send("9" + User); //傳送自己的離線訊息給伺服器
-                T.Close();        //關閉網路通訊器T
+                T.Close();        //關閉網路通訊器T 
             }
         }
     }
